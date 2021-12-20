@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+</style>
+<br>
+<a href="home.html"><button autofocus="autofocus" style="color:black;border-radius:5px">Home</button></a>
+</br>
+<b><i><p align ="center"><font color="pink"<font size="15">" My Hobby "</i></b></font>
+</head>
+<br>
+</br>
+
+<h1>My Favourite song</h1>
+</h1>
+<a href="https://www.youtube.com/results?search_query=love+nwantiti">1. CKay - Love Nwantiti</a>
+<br>
+<a href="https://www.youtube.com/watch?v=ZAfAud_M_mg">2. Halsey - Without Me</a>
+<br>
+<a href="https://www.youtube.com/watch?v=i9o_-d8BiG8">3. Rizky Febian - Ragu</a>
+<br>
+<a href="https://www.youtube.com/watch?v=KD5aqhUytbk">4. Ali Gatie - Moonlight</a>
+<br>
+<a href="https://www.youtube.com/watch?v=uelHwf8o7_U">5.Eminem - Love The Way You Lie ft. Rihanna</a>
+<br>
+<br>
+<embed src="Sketchers.mp3"></embed>
+<br>
+</br>
+<h2>My Favourite movie</h2>
+</h2>
+<embed src="CRAWL MOVIE ENGLISH.mp4"></embed>
+<param name= "showcontrols"="true"> 
+<br>
+<big>The Crawl</big>
+<br>
+</br>
+<embed src="Garden Tour May 2020.mp4"></embed>
+<br>
+<big>Garden Tour</big>
+<br>
+</br>
+
+
+<style>
+
+<span class="dot"></span>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size:40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/7 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 9s ease;
+}
+
+.active {
+  background-color:  #DB7093;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10.5s;
+  animation-name: fade;
+  animation-duration: 10.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .7} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 200px) {
+  .text {font-size: 33px}
+}
+</style>
+</head>
+<body>
+
+<h2>Automatic Slideshow</h2>
+<p>Everyone has hobby same goes to me. On every weekend I would love to do extreme activities like hiking. I had an experienced in Hiking Bukut H at Taman
+Semarak Sungai Petani. Bukit H know to be a thrill and fun activity for people to look for. I also enjoyed watching sunset from the top of the hill.</p>
+<br>
+</br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="bukit.jpeg" style="width:100%">
+  <div class="text">Hiking Bukit H</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 /7</div>
+  <img src="masak.jpeg" style="width:100%">
+  <div class="text">Cooking</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="SUKOL.jpg" style="width:100%">
+  <div class="text">UiTM activities</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4/ 7</div>
+  <img src="shopping1.jpeg" style="width:100%">
+  <div class="text">Shopping</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="sunset.jpeg" style="width:100%">
+  <div class="text">Sunset</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="picnic.jpeg" style="width:100%">
+  <div class="text">Picnic</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="cameron.jpeg" style="width:100%">
+  <div class="text">Holiday</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
